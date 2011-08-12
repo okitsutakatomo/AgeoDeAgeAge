@@ -245,8 +245,9 @@ var OAuthAdapter = function(pConsumerSecret, pConsumerKey, pSignatureMethod) {
 		receivePinCallback = pReceivePinCallback;
 
 		window = Ti.UI.createWindow({
-			title: "Twitter認証",
+			title: "Twitterログイン",
 			tabBarHidden:true,
+			barColor: "#000000"
 		});
 
 		webView = Ti.UI.createWebView({
